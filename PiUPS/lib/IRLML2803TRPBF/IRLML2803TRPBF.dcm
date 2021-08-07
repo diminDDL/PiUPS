@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRLML2803TRPBF
+D IRLML2803TRPBF N-Channel MOSFET, 1.2 A, 30 V HEXFET, 3-Pin SOT-23 Infineon
+K
+F https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f
+$ENDCMP
+#
+#End Doc Library

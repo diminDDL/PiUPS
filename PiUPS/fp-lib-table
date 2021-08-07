@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name RPI)(type KiCad)(uri ${KIPRJMOD}/lib/RPI)(options "")(descr ""))
+  (lib (name tps61088)(type KiCad)(uri ${KIPRJMOD}/lib/tps61088)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/lib/logo)(options "")(descr ""))
+  (lib (name IRLML2803TRPBF)(type Legacy)(uri ${KIPRJMOD}/lib/IRLML2803TRPBF/IRLML2803TRPBF.mod)(options "")(descr ""))
+)
