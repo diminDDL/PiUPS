@@ -1,7 +1,7 @@
 # The DDL pi UPS
 This repo contains the hardware and *soon TM* software for the ultra efficient raspberry pi UPS.
-The reason this was creates was because I wasn't satisfied with the things available on the market
-that would just lower the incoming voltage to charge the battery and imminently boost it to power the pi. This way efficiencies of around ~80% can be achieved. Don't get me wrong this is not terrible but I wanted to do better, which is why this design incorporates a power MUX.
+The reason this was created was because I wasn't satisfied with the things available on the market
+that would just lower the incoming voltage to charge the battery and immediately boost it to power the pi. This way efficiencies of around ~80% can be achieved. Don't get me wrong this is not terrible but I wanted to do better, which is why this design incorporates a power MUX.
 
 ### Current revision: 0.2
 
