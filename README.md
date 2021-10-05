@@ -13,3 +13,4 @@ that would just lower the incoming voltage to charge the battery and immediately
 | After over-discharge protection turns off the load, it turns back on after reaching ~3V causing hysteresis    | Add dw01 and corresponding MOSFETs to enable battery protections  |
 | quiescent power consumption quite high (5mA) when SW1 is off     | Same as for first issue     |
 | No direct way to check battery voltage in the BQ25601    | Use the VSYS status to get an inderect measurement/replace battary managment chip     |
+| If the input voltage drops slowly, the power MUX will fail and the pi would shutdown    | Add a schmitt trigger     |
