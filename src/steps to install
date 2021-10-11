@@ -1,0 +1,4 @@
+1. turn on I2C in raspi-config
+2. sudo apt-get install -y python-smbus
+3. sudo apt-get install -y i2c-tools
+4. pip3/pip install smbus2

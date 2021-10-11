@@ -481,12 +481,12 @@ $EndComp
 $Comp
 L Device:Polyfuse F2
 U 1 1 61116D53
-P 1650 5750
-F 0 "F2" V 1550 5750 50  0000 C CNN
-F 1 "MF-PPTC-1812-3.5A-6V" V 1516 5750 50  0001 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1700 5550 50  0001 L CNN
-F 3 "~" H 1650 5750 50  0001 C CNN
-	1    1650 5750
+P 1150 5750
+F 0 "F2" V 1050 5750 50  0000 C CNN
+F 1 "MF-PPTC-1812-3.5A-6V" V 1016 5750 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1200 5550 50  0001 L CNN
+F 3 "~" H 1150 5750 50  0001 C CNN
+	1    1150 5750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -522,12 +522,12 @@ Connection ~ 2550 3300
 $Comp
 L power:+BATT #PWR07
 U 1 1 611517DB
-P 1500 5750
-F 0 "#PWR07" H 1500 5600 50  0001 C CNN
-F 1 "+BATT" H 1515 5923 50  0000 C CNN
-F 2 "" H 1500 5750 50  0001 C CNN
-F 3 "" H 1500 5750 50  0001 C CNN
-	1    1500 5750
+P 1000 5750
+F 0 "#PWR07" H 1000 5600 50  0001 C CNN
+F 1 "+BATT" H 1015 5923 50  0000 C CNN
+F 2 "" H 1000 5750 50  0001 C CNN
+F 3 "" H 1000 5750 50  0001 C CNN
+	1    1000 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -564,11 +564,9 @@ F 3 "~" H 2150 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 5750 2150 5750
-Connection ~ 1800 5750
+	1800 5750 2050 5750
 Wire Wire Line
 	1800 6050 2150 6050
-Connection ~ 1800 6050
 Wire Wire Line
 	2150 5750 2450 5750
 Connection ~ 2150 5750
@@ -613,7 +611,7 @@ $Comp
 L Device:R R24
 U 1 1 61172D1D
 P 6450 6500
-F 0 "R24" H 6350 6450 50  0000 C CNN
+F 0 "R24" H 6300 6450 50  0000 C CNN
 F 1 "18.7k" H 6300 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6380 6500 50  0001 C CNN
 F 3 "~" H 6450 6500 50  0001 C CNN
@@ -654,7 +652,7 @@ $Comp
 L Device:R R27
 U 1 1 61183EDD
 P 5700 6700
-F 0 "R27" H 5600 6650 50  0000 C CNN
+F 0 "R27" H 5550 6650 50  0000 C CNN
 F 1 "147k" H 5550 6750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5630 6700 50  0001 C CNN
 F 3 "~" H 5700 6700 50  0001 C CNN
@@ -884,8 +882,6 @@ Wire Notes Line
 	6800 4500 6800 8450
 Wire Notes Line
 	6800 8450 1200 8450
-Wire Notes Line
-	1200 8450 1200 4500
 Text Notes 3750 4700 0    50   ~ 0
 5V Booster circuit
 $Comp
@@ -926,7 +922,7 @@ L Amplifier_Operational:LM358 U1
 U 1 1 612A13B8
 P 8950 2000
 F 0 "U1" H 8950 2367 50  0000 C CNN
-F 1 "LM358" H 8950 2276 50  0000 C CNN
+F 1 "LM393" H 8950 2276 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8950 2000 50  0001 C CNN
 	1    8950 2000
@@ -935,20 +931,20 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM358 U1
 U 2 1 612A1F2A
-P 8700 3250
-F 0 "U1" H 8700 3617 50  0000 C CNN
-F 1 "LM358" H 8700 3526 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8700 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8700 3250 50  0001 C CNN
-	2    8700 3250
-	1    0    0    -1  
+P 1550 7350
+F 0 "U1" H 1550 7717 50  0000 C CNN
+F 1 "LM393" H 1550 7626 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1550 7350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1550 7350 50  0001 C CNN
+	2    1550 7350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U1
 U 3 1 612A3B8B
 P 8450 2600
 F 0 "U1" V 8125 2600 50  0000 C CNN
-F 1 "LM358" V 8216 2600 50  0000 C CNN
+F 1 "LM393" V 8216 2600 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8450 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8450 2600 50  0001 C CNN
 	3    8450 2600
@@ -1056,52 +1052,6 @@ F 3 "" H 8150 2500 50  0001 C CNN
 $EndComp
 Text GLabel 8750 2500 2    50   Input ~ 0
 VSYS
-$Comp
-L power:GND #PWR021
-U 1 1 61382E19
-P 8100 3450
-F 0 "#PWR021" H 8100 3200 50  0001 C CNN
-F 1 "GND" H 8105 3277 50  0000 C CNN
-F 2 "" H 8100 3450 50  0001 C CNN
-F 3 "" H 8100 3450 50  0001 C CNN
-	1    8100 3450
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 2850 0    50   Input ~ 0
-VSYS
-$Comp
-L Device:R R22
-U 1 1 613B4402
-P 8100 3000
-F 0 "R22" V 7893 3000 50  0000 C CNN
-F 1 "10k" V 7984 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 3000 50  0001 C CNN
-F 3 "~" H 8100 3000 50  0001 C CNN
-	1    8100 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R29
-U 1 1 613B50D0
-P 8100 3300
-F 0 "R29" V 7893 3300 50  0000 C CNN
-F 1 "10k" V 7984 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 3300 50  0001 C CNN
-F 3 "~" H 8100 3300 50  0001 C CNN
-	1    8100 3300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8100 3150 8400 3150
-Connection ~ 8100 3150
-Wire Wire Line
-	9000 3250 9000 3650
-Wire Wire Line
-	9000 3650 8400 3650
-Wire Wire Line
-	8400 3650 8400 3350
-Wire Wire Line
-	7950 2850 8100 2850
 $Comp
 L Transistor_FET:IRF7404 Q2
 U 1 1 613F859B
@@ -1958,19 +1908,17 @@ Connection ~ 8950 5850
 $Comp
 L Device:Polyfuse F1
 U 1 1 6122E088
-P 1650 5400
-F 0 "F1" V 1425 5400 50  0000 C CNN
-F 1 "MF-PPTC-1812-3.5A-6V" V 1550 5400 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1700 5200 50  0001 L CNN
-F 3 "~" H 1650 5400 50  0001 C CNN
-	1    1650 5400
+P 1150 5400
+F 0 "F1" V 925 5400 50  0000 C CNN
+F 1 "MF-PPTC-1812-3.5A-6V" V 1050 5500 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1200 5200 50  0001 L CNN
+F 3 "~" H 1150 5400 50  0001 C CNN
+	1    1150 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 5400 1500 5750
-Connection ~ 1500 5750
-Wire Wire Line
-	1800 5400 1800 5750
+	1000 5400 1000 5750
+Connection ~ 1000 5750
 Wire Wire Line
 	3050 2800 3050 3400
 Wire Wire Line
@@ -2136,4 +2084,192 @@ NoConn ~ 13350 8950
 NoConn ~ 12350 9050
 Wire Wire Line
 	11600 1950 12050 1950
+$Comp
+L Transistor_FET:IRF7404 Q?
+U 1 1 61683A0B
+P 1550 5850
+F 0 "Q?" V 1892 5850 50  0000 C CNN
+F 1 "IRF7404" V 1801 5850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1750 5775 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 1550 5850 50  0001 L CNN
+	1    1550 5850
+	0    1    -1   0   
+$EndComp
+Connection ~ 1800 6050
+Wire Wire Line
+	1300 5750 1350 5750
+Wire Wire Line
+	1750 5750 1800 5750
+Connection ~ 1800 5750
+Wire Wire Line
+	1300 5400 1300 5750
+Connection ~ 1300 5750
+$Comp
+L Device:R R?
+U 1 1 617610B8
+P 1300 5950
+F 0 "R?" V 1200 5950 50  0000 C CNN
+F 1 "10k" V 1100 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1230 5950 50  0001 C CNN
+F 3 "~" H 1300 5950 50  0001 C CNN
+	1    1300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5800 1300 5750
+Wire Wire Line
+	1300 6100 1550 6100
+Wire Wire Line
+	1550 6100 1550 6050
+Wire Wire Line
+	1700 6850 1700 6050
+Wire Wire Line
+	1700 6050 1800 6050
+Wire Wire Line
+	1550 6850 1700 6850
+$Comp
+L Device:R R?
+U 1 1 617BCFB5
+P 1550 6950
+F 0 "R?" V 1450 6950 50  0000 C CNN
+F 1 "10k" V 1350 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 6950 50  0001 C CNN
+F 3 "~" H 1550 6950 50  0001 C CNN
+	1    1550 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 6950 1250 6950
+Wire Wire Line
+	1250 6950 1250 6650
+Wire Wire Line
+	1700 6950 2050 6950
+Wire Wire Line
+	2050 6950 2050 5750
+Connection ~ 2050 5750
+Wire Wire Line
+	2050 5750 2150 5750
+Connection ~ 1250 6950
+Text Notes 9000 1500 0    118  ~ 0
+TODO\nEdit the shematic to the new version\n
+Text Notes 2450 1350 0    118  ~ 0
+TODO\nEdit the shematic to the new version\n
+Text GLabel 7750 1900 1    50   Input ~ 0
+2V4
+Wire Wire Line
+	7750 2100 7750 1900
+Text GLabel 2000 7250 2    50   Input ~ 0
+2V4
+Wire Wire Line
+	1850 7250 2000 7250
+$Comp
+L Device:R R?
+U 1 1 61931FD4
+P 2500 7600
+F 0 "R?" H 2350 7550 50  0000 C CNN
+F 1 "200k" H 2350 7650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 7600 50  0001 C CNN
+F 3 "~" H 2500 7600 50  0001 C CNN
+	1    2500 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6193474F
+P 2500 7200
+F 0 "R?" H 2350 7150 50  0000 C CNN
+F 1 "62k" H 2350 7250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 7200 50  0001 C CNN
+F 3 "~" H 2500 7200 50  0001 C CNN
+	1    2500 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 7450 1850 7450
+Wire Wire Line
+	2500 7350 2500 7450
+Connection ~ 2500 7450
+$Comp
+L power:GND #PWR?
+U 1 1 619557C0
+P 2500 7800
+F 0 "#PWR?" H 2500 7550 50  0001 C CNN
+F 1 "GND" H 2505 7627 50  0000 C CNN
+F 2 "" H 2500 7800 50  0001 C CNN
+F 3 "" H 2500 7800 50  0001 C CNN
+	1    2500 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7800 2500 7750
+Wire Wire Line
+	2500 7050 2500 6950
+Wire Wire Line
+	2500 6950 2050 6950
+Connection ~ 2050 6950
+$Comp
+L Device:R R?
+U 1 1 6197973C
+P 1000 6950
+F 0 "R?" V 900 6950 50  0000 C CNN
+F 1 "10k" V 800 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 930 6950 50  0001 C CNN
+F 3 "~" H 1000 6950 50  0001 C CNN
+	1    1000 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 6950 1250 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 61994FA4
+P 850 6850
+F 0 "#PWR?" H 850 6700 50  0001 C CNN
+F 1 "+5V" H 865 7023 50  0000 C CNN
+F 2 "" H 850 6850 50  0001 C CNN
+F 3 "" H 850 6850 50  0001 C CNN
+	1    850  6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6950 850  6850
+$Comp
+L IRLML2803TRPBF:IRLML2803TRPBF Q?
+U 1 1 617428A3
+P 1250 6650
+F 0 "Q?" H 1300 7000 50  0000 L CNN
+F 1 "IRLML2803TRPBF" H 750 6900 50  0000 L CNN
+F 2 "IRLML2803TRPBF:SOT95P237X112-3N" H 1700 6600 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 1700 6500 50  0001 L CNN
+F 4 "IRLML2803TRPBF N-Channel MOSFET, 1.2 A, 30 V HEXFET, 3-Pin SOT-23 Infineon" H 1700 6400 50  0001 L CNN "Description"
+F 5 "1.12" H 1700 6300 50  0001 L CNN "Height"
+F 6 "Infineon" H 1700 6200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLML2803TRPBF" H 1700 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLML2803TRPBF" H 1700 6000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML2803TRPBF?qs=9%252BKlkBgLFf2YYGlrpx3%252BKw%3D%3D" H 1700 5900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLML2803TRPBF" H 1700 5800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlml2803trpbf/infineon-technologies-ag" H 1700 5700 50  0001 L CNN "Arrow Price/Stock"
+	1    1250 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6100
+Wire Wire Line
+	1550 6250 1550 6100
+$Comp
+L Device:R R?
+U 1 1 61A99D1E
+P 1250 7150
+F 0 "R?" V 1150 7150 50  0000 C CNN
+F 1 "10k" V 1050 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 7150 50  0001 C CNN
+F 3 "~" H 1250 7150 50  0001 C CNN
+	1    1250 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 7350 1250 7300
+Wire Wire Line
+	1250 7000 1250 6950
+Text Notes 10800 4850 0    50   ~ 0
+Pull this up to VSYS?
 $EndSCHEMATC
