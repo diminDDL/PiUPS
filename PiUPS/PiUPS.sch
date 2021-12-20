@@ -860,11 +860,7 @@ Wire Wire Line
 	2850 6250 3600 6250
 Connection ~ 2150 6050
 Wire Notes Line
-	1200 4500 6800 4500
-Wire Notes Line
 	6800 4500 6800 8450
-Wire Notes Line
-	6800 8450 1200 8450
 Text Notes 3750 4700 0    50   ~ 0
 5V Booster circuit
 $Comp
@@ -2288,16 +2284,6 @@ Text Notes 9950 2550 0    50   ~ 0
 Probably can be lowered to 470
 Text Notes 5700 3200 0    50   ~ 0
 10uA leakage current at Vbat-2.5V
-Wire Notes Line
-	650  5000 650  6150
-Wire Notes Line
-	650  6150 3300 6150
-Wire Notes Line
-	3300 6150 3300 5000
-Wire Notes Line
-	3300 5000 650  5000
-Text Notes 1550 5100 0    50   ~ 0
-Suspected leakage current area?
 Text Notes 6500 6350 0    50   ~ 0
 (18k)\n
 $Comp
@@ -2349,4 +2335,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 3000 8750 3000
 Connection ~ 8750 3000
+Wire Notes Line
+	600  8450 600  4500
+Wire Notes Line
+	600  4500 6800 4500
+Wire Notes Line
+	600  8450 6800 8450
 $EndSCHEMATC
