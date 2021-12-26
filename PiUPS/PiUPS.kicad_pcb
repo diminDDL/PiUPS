@@ -5951,6 +5951,9 @@
   (gr_text "UPS\nOFF    ON" (at 118.85 121.825) (layer "F.SilkS") (tstamp f4f6e269-d484-4c43-84cc-450e042e2e24)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "OUTDATED PCB" (at 104.14 53.34) (layer "Dwgs.User") (tstamp 3ee16bd1-f136-44b9-8ced-1b3969b2d15e)
+    (effects (font (size 5 2.5) (thickness 0.3)))
+  )
 
   (segment (start 80.7 113.4) (end 80.7 114.45) (width 0.5) (layer "F.Cu") (net 1) (tstamp 01c54577-6862-4ca7-bb55-524c2e995aee))
   (segment (start 136.675 101.8) (end 136.675 100.55) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0774b60f-e343-428b-9125-3ca983239ad5))
