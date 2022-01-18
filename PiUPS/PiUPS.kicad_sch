@@ -5071,7 +5071,7 @@
     (uuid 00000000-0000-0000-0000-0000610e819d)
     (property "Reference" "L2" (id 0) (at 125.095 46.99 90))
     (property "Value" "1uH" (id 1) (at 125.095 48.895 90))
-    (property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8" (id 2) (at 125.095 50.8 0)
+    (property "Footprint" "Inductor_SMD:L_6.3x6.3_H3" (id 2) (at 125.095 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 125.095 50.8 0)
@@ -7575,7 +7575,7 @@
       (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_10.4x10.4_H4.8")
     )
     (path "/00000000-0000-0000-0000-0000610e819d"
-      (reference "L2") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_10.4x10.4_H4.8")
+      (reference "L2") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_6.3x6.3_H3")
     )
     (path "/00000000-0000-0000-0000-0000617428a3"
       (reference "Q1") (unit 1) (value "IRLML2803TRPBF") (footprint "IRLML2803TRPBF:SOT95P237X112-3N")
