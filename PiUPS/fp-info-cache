@@ -1,4 +1,4 @@
-19804615554679682
+19806258744950711
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83732,7 +83732,7 @@ SAMTEC_USB-A-S-X-X-SM2
 
 0
 6
-6
+5
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -84505,6 +84505,13 @@ varistor SIOV
 2
 logo
 logo
+
+
+0
+0
+0
+logo
+warning
 
 
 0
