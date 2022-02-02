@@ -12,3 +12,4 @@ that would just lower the incoming voltage to charge the battery and immediately
 | Battery voltage leaking on to the output line even with switch in OFF position| Turn the below protection off |
 | After over-discharge protection turns off the load, it turns back on after reaching ~3V causing hysteresis    | Use unused compatrator for under voltage protection  |
 | quiescent power consumption quite high (10-20uA) when SW1 is off     | Same as for second issue     |
+
