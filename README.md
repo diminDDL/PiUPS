@@ -1,4 +1,6 @@
 # The DDL pi UPS
+[![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://vshymanskyy.github.io/StandWithUkraine)
+
 This repo contains the hardware and *soon TM* software for the ultra efficient raspberry pi UPS.
 The reason this was created was because I wasn't satisfied with the things available on the market
 that would just lower the incoming voltage to charge the battery and immediately boost it to power the pi. This way efficiencies of around ~80% can be achieved. Don't get me wrong this is not terrible but I wanted to do better, which is why this design incorporates a power MUX.
