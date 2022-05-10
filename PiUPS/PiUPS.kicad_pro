@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.75,
-          "height": 2.75,
-          "width": 2.75
+          "drill": 1.016,
+          "height": 1.75,
+          "width": 1.75
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -101,7 +101,8 @@
         "silk_overlap|68233600|79191600|1528ec23-0172-4ce4-b199-19e9aa5f9b8d|4b7b9d29-8e6c-45ef-af59-dd71d4128a50",
         "silk_overlap|68233600|79191600|5a1fde6b-0e74-49a6-995d-0a70fe66ea0b|689141ce-3cb4-4f7d-80d2-c503f350478d",
         "silk_overlap|94575000|114050000|00e4f78e-7079-470f-8b11-c45c577e9b0e|07c8374c-1a8a-4454-a5e3-f48e6ec36377",
-        "silk_overlap|94575000|114050000|b7930dde-20ac-48a9-b42e-daa7604727e7|00e4f78e-7079-470f-8b11-c45c577e9b0e"
+        "silk_overlap|94575000|114050000|b7930dde-20ac-48a9-b42e-daa7604727e7|00e4f78e-7079-470f-8b11-c45c577e9b0e",
+        "track_dangling|76270000|114319300|0ee3dd79-9b4a-404a-be2a-4eba52337675|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -168,6 +169,8 @@
       },
       "track_widths": [
         0.0,
+        0.128,
+        0.256,
         0.5,
         2.0,
         3.0
