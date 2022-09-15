@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BQ29700DSER
+#
+DEF BQ29700DSER U 0 40 Y Y 1 L N
+F0 "U" -400 520 50 H V L BNN
+F1 "BQ29700DSER" -400 -600 50 H V L BNN
+F2 "SON50P150X150X80-6N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F5 "0.8mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "Texas Instruments" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "G" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -400 -500 400 500 0 0 10 f
+X BAT 5 -600 400 200 R 40 40 0 0 W 
+X COUT 2 600 200 200 L 40 40 0 0 O 
+X DOUT 3 600 100 200 L 40 40 0 0 O 
+X VSS 4 600 -400 200 L 40 40 0 0 W 
+X V- 6 -600 200 200 R 40 40 0 0 B 
+X NC 1 600 -200 200 L 40 40 0 0 N 
+ENDDRAW
+ENDDEF
+#
+# End Library

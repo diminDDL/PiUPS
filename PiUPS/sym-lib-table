@@ -1,7 +1,5 @@
 (sym_lib_table
-  (lib (name TPS61088RHLR)(type Legacy)(uri ${KIPRJMOD}/lib/tps61088/TPS61088RHLR.lib)(options "")(descr ""))
-  (lib (name fs8205a)(type Legacy)(uri ${KIPRJMOD}/lib/tp4056/tp4056/lib/fs8205a.lib)(options "")(descr ""))
-  (lib (name dw01)(type Legacy)(uri ${KIPRJMOD}/lib/tp4056/tp4056/lib/dw01.lib)(options "")(descr ""))
-  (lib (name tp4056)(type Legacy)(uri ${KIPRJMOD}/lib/tp4056/tp4056/lib/tp4056.lib)(options "")(descr ""))
-  (lib (name IRLML2803TRPBF)(type Legacy)(uri ${KIPRJMOD}/lib/IRLML2803TRPBF/IRLML2803TRPBF.lib)(options "")(descr ""))
+  (lib (name "TPS61088RHLR")(type "Legacy")(uri "${KIPRJMOD}/lib/tps61088/TPS61088RHLR.lib")(options "")(descr ""))
+  (lib (name "IRLML2803TRPBF")(type "Legacy")(uri "${KIPRJMOD}/lib/IRLML2803TRPBF/IRLML2803TRPBF.lib")(options "")(descr ""))
+  (lib (name "BQ29700DSER")(type "Legacy")(uri "${KIPRJMOD}/lib/BQ29700DSER/BQ29700DSER.lib")(options "")(descr ""))
 )
