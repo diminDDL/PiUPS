@@ -15,3 +15,6 @@ that would just lower the incoming voltage to charge the battery and immediately
 | After over-discharge protection turns off the load, it turns back on after reaching ~3V causing hysteresis    | Use unused compatrator for under voltage protection  |
 | quiescent power consumption quite high (10-20uA) when SW1 is off     | Same as for second issue     |
 
+### Pictures
+![3D render](https://github.com/diminDDL/PiUPS/blob/main/assets/3D.png)
+![Photo in development](https://github.com/diminDDL/PiUPS/blob/main/assets/dev.jpg)
