@@ -7,13 +7,14 @@ that would just lower the incoming voltage to charge the battery and immediately
 
 ### Current revision: 0.5
 
-##### Known issues of rev 0.2
+##### Known issues of rev 0.5
 
 | Issue  | Possible fix |
 | ------------- |:-------------:|
-| Battery voltage leaking on to the output line even with switch in OFF position| Turn the below protection off |
-| After over-discharge protection turns off the load, it turns back on after reaching ~3V causing hysteresis    | Use unused compatrator for under voltage protection  |
-| quiescent power consumption quite high (10-20uA) when SW1 is off     | Same as for second issue     |
+| Power mux and everything involving the comparator oscilates when trying to shut down. | Use TL431 instead, it combines a voltage reference and a comparator. |
+| Turning switch off while plugged in doesn't turn off the output. | Rework the schematic. |
+| DW01 chip is acting up (high leakage, not working half of the time). | Replace with BQ2970. |
+| BMS turns off when the charger is plugged in. | Try removing diodes going to the fs8205. |
 
 ### Pictures
 ![3D render](https://github.com/diminDDL/PiUPS/blob/main/assets/3D.png)
