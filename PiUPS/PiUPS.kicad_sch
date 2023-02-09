@@ -4415,6 +4415,11 @@
     (uuid fead07ab-5a70-40db-ada8-c72dcc827bfc)
   )
 
+  (text "Make sure the\nunder voltage switch and chip\nare on the same ground reference"
+    (at 132.715 78.105 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 03f8078c-13bc-4da1-8b10-4e9708bac1b2)
+  )
   (text "Battery chrage/managment unit" (at 83.82 30.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b4c0f05-c855-4742-bad2-dbf645d5842b)
