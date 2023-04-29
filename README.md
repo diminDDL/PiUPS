@@ -15,7 +15,7 @@ To learn more about the war and how you can help, [click here](https://u24.gov.u
 
 ### AND
 
-## CERN Open Hardware Licence (CERN-OHL-W) TL;DR
+## CERN Open Hardware Licence v2 (CERN-OHL-W) TL;DR
 
 - **Can:**
   - *Use*: You are free to use the hardware design in any way.
@@ -29,7 +29,7 @@ To learn more about the war and how you can help, [click here](https://u24.gov.u
 - **Conditions:**
   - *Attribution*: You must give appropriate credit to the original author, including a copyright notice, a link to the license, and an indication of any changes made.
   - *ShareAlike*: If you modify the design, you must distribute your contributions under the same license as the original.
-  - *License Notice*: You must include a copy of the CERN-OHL-W with the distributed design or provide a clear link to the license.
+  - *License Notice*: You must include a copy of the CERN-OHL-W v2 with the distributed design or provide a clear link to the license.
 
 Disclaimer: This summary is not a legal document and does not provide legal advice. Please read the full license text for a complete understanding of its terms and conditions.
 
