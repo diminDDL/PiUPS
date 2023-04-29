@@ -1,7 +1,8 @@
 # The DDL pi UPS
 [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://vshymanskyy.github.io/StandWithUkraine)
 
-## Terms of use
+# Terms of use
+### The following conditions should be met if you want to use any part of this repository:
 
 By using this project or its parts, for any purpose and in any shape or form, you grant your **implicit agreement** to all the following statements:
 
@@ -11,6 +12,26 @@ By using this project or its parts, for any purpose and in any shape or form, yo
 - You **reject false narratives perpetuated by Russian state propaganda**
 
 To learn more about the war and how you can help, [click here](https://u24.gov.ua/). Glory to Ukraine! 🇺🇦
+
+### AND
+
+## CERN Open Hardware Licence (CERN-OHL-W) TL;DR
+
+- **Can:**
+  - *Use*: You are free to use the hardware design in any way.
+  - *Modify*: You can make modifications to the design.
+  - *Distribute*: You can share the original or modified design with others.
+  - *Commercial Use*: You can use the design in commercial projects.
+
+- **Can't:**
+  - *Hold Liable*: The original author is not liable for any damages or consequences resulting from the use of the design.
+
+- **Conditions:**
+  - *Attribution*: You must give appropriate credit to the original author, including a copyright notice, a link to the license, and an indication of any changes made.
+  - *ShareAlike*: If you modify the design, you must distribute your contributions under the same license as the original.
+  - *License Notice*: You must include a copy of the CERN-OHL-W with the distributed design or provide a clear link to the license.
+
+Disclaimer: This summary is not a legal document and does not provide legal advice. Please read the full license text for a complete understanding of its terms and conditions.
 
 ## Info
 
